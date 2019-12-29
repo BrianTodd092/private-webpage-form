@@ -14,7 +14,7 @@
 
 /*creation of the $msg variable and
  supplementally adding  detail to it.*/
-    $msg="EMAIL SENT FROM WEBSITE:\r\n " ;
+    $msg="EMAIL SENT FROM WEBSITE:\r\n " ; 
     $msg.="Sender Name: $name\r\n ";
     $msg.="Moblie No: $mobileno\r\n ";
     $msg.="Sender E-mail: $email\r\n ";
@@ -29,7 +29,7 @@
     $formsent=mail($to, $subject, $msg, $mailheaders); //send the email
     if ($formsent)
      {
-      echo "<p style='background-color:green;color:white;width:200px;height:40px;text-align:center;font-size:18px;'> Form Recieved</p>";
+      echo "<p style='background-color:green;color:white;width:200px;height:40px;text-align:center;font-size:18px;'> Form Received</p>";
      }
      else
      {
