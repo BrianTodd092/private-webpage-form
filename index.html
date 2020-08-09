@@ -7,55 +7,9 @@
 <meta name="keywords" content=" Private Contact Form">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
- input:focus{
-             outline:2px solid green;
- }
- textarea:focus{
-             outline: 2px solid green;
- }            
-.form {
-            position: relative;
-            left: 5%;        /* move the form horizontally 1%; - 80%; */
-            top: 5%;         /*  move the form vertically percentage;*/
-            width: 15%;
-            color: navy;  /* font color. delete navy type goldenrod different color */
+ <link href="style.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-}
-
-
-
-
-
- .ctbut  {
-          position: relative;
-                   
-          height: 30px;
-          width: 110px;
-          color: navy;
-          background-color: white;
-          background-size: 27px;
-          border: 1px solid green;
-          font-size: 25px;
-          font-weight: bold;
-          text-align: center;
-          box-shadow: 5px 5px #d3d3d3;
-}
-
-/*.formbg {
-           background-color: #e6e6fa;         /* commented ignored */
-}*/
-
-
-
-
-
-
-
-
-
-</style>
 </head>
 <body>
 
@@ -88,60 +42,11 @@
 </fieldset>
 </form>
 </div>
+<noscript>
+ Enable JavaScript
+ </noscript>
 
-
-<script type="text/javascript">
-
-document.getElementById('smit').addEventListener('click', myFunction, false);
-document.getElementById('s').addEventListener('mouseover', function1, false);
-document.getElementById('s').addEventListener('mouseout', function2, false);
-document.getElementById('f').style.display='none';
-/* document.getElementById('c').style.background = "#e6e6fa"; */
-document.getElementById('c').style.backgroundImage= "url('star.jpg')";
-document.getElementById('c').style.backgroundRepeat= "no-repeat";
-document.getElementById('c').style.backgroundPosition="center";
-
-
-
-
-function function1(){
-
-
- var formc=document.getElementById('c').style.background = "#7ccd7c";
-
-}
-
-
-function function2(){
-
-
-/* var formc=document.getElementById('c').style.background = "#e6e6fa";*/
-
-var formc=document.getElementById('c').style.backgroundImage= "url('star.jpg')";
-var formca=document.getElementById('c').style.backgroundRepeat= "no-repeat";
-var formcb=document.getElementById('c').style.backgroundPosition="center";
-
-
-
-
-}
-
-
-
-function myFunction() {
-  var x = document.getElementById('f');
-  if (x.style.display === 'none') {
-    x.style.display = 'block';
-  } else {
-    x.style.display = 'none';
-  }
-}
-
-
-
-
-
-</script>
+ <script src="javascript.js"></script>
 
 </body>
 </html>
