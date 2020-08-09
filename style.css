@@ -1,0 +1,45 @@
+input:focus{
+             outline:2px solid green;
+ }
+ textarea:focus{
+             outline: 2px solid green;
+ }            
+.form {
+            position: relative;
+            left: 5%;        /* move the form horizontally 1%; - 80%; */
+            top: 5%;         /*  move the form vertically percentage;*/
+            width: 15%;
+            color: navy;  /* font color. delete navy type goldenrod different color */
+
+}
+
+
+
+
+
+ .ctbut  {
+          position: relative;
+                   
+          height: 30px;
+          width: 110px;
+          color: navy;
+          background-color: white;
+          background-size: 27px;
+          border: 1px solid green;
+          font-size: 25px;
+          font-weight: bold;
+          text-align: center;
+          box-shadow: 5px 5px #d3d3d3;
+}
+
+/*.formbg {
+           background-color: #e6e6fa;         /* commented ignored */
+}*/
+
+
+
+
+
+
+
+
