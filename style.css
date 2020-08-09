@@ -31,6 +31,7 @@ input:focus{
           text-align: center;
           box-shadow: 5px 5px #d3d3d3;
 }
+noscript { color: red;}
 
 /*.formbg {
            background-color: #e6e6fa;         /* commented ignored */
